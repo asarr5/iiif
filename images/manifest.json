@@ -1,0 +1,66 @@
+{
+  "id" : "https://asarr5.github.io/iiif/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in asarr5/iiif project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 172,
+    "id" : "https://asarr5.github.io/iiif/images/images/canvas/",
+    "label" : {
+      "none" : [ "images" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://asarr5.github.io/iiif/images/images/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://asarr5.github.io/iiif/images/images/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 6,
+              "height" : 10
+            }, {
+              "width" : 11,
+              "height" : 19
+            }, {
+              "width" : 22,
+              "height" : 37
+            }, {
+              "width" : 43,
+              "height" : 74
+            }, {
+              "width" : 86,
+              "height" : 147
+            }, {
+              "width" : 172,
+              "height" : 293
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 172,
+            "@id" : "https://asarr5.github.io/iiif/images/images",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 293
+          } ],
+          "format" : "image/jpeg",
+          "width" : 172,
+          "id" : "https://asarr5.github.io/iiif/images/images/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 293
+        },
+        "target" : "https://asarr5.github.io/iiif/images/images/canvas/"
+      } ]
+    } ],
+    "height" : 293
+  } ]
+}
